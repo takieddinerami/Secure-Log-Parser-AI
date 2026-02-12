@@ -1,0 +1,14 @@
+# Secure-Log-Parser-AI Requirements
+# Python 3.9+
+
+# Core dependencies (standard library only for AI components)
+# No external dependencies required for basic functionality
+
+# Optional dependencies for enhanced features
+pandas>=1.3.0      # Data manipulation and analysis
+numpy>=1.21.0      # Numerical computing
+networkx>=2.6.0    # Graph analysis for relationship modeling
+
+# Development dependencies
+pytest>=6.2.0      # Testing framework
+pytest-cov>=2.12.0 # Coverage reporting
