@@ -1,0 +1,4652 @@
+[
+  {
+    "event_id": "evt_1775194379.836578_9163",
+    "timestamp": "2026-04-03T06:32:59.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:32:59.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 32,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194379.836578_9163",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:32:59.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194384.836578_1778",
+    "timestamp": "2026-04-03T06:33:04.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:04.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194384.836578_1778",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:04.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194387.836578_7329",
+    "timestamp": "2026-04-03T06:33:07.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:07.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194387.836578_7329",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:07.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194394.836578_3360",
+    "timestamp": "2026-04-03T06:33:14.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "guest",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:14.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "guest",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194394.836578_3360",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:14.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "guest",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194383.836578_9459",
+    "timestamp": "2026-04-03T06:33:03.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:03.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194383.836578_9459",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:03.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194399.836578_8436",
+    "timestamp": "2026-04-03T06:33:19.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:19.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194399.836578_8436",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:19.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194397.836578_5578",
+    "timestamp": "2026-04-03T06:33:17.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "jane.smith",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:17.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "jane.smith",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194397.836578_5578",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:17.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "jane.smith",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194400.836578_4052",
+    "timestamp": "2026-04-03T06:33:20.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:20.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194400.836578_4052",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:20.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194387.836578_8164",
+    "timestamp": "2026-04-03T06:33:07.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:07.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194387.836578_8164",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:07.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194424.836578_3526",
+    "timestamp": "2026-04-03T06:33:44.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:44.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194424.836578_3526",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:44.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194429.836578_9027",
+    "timestamp": "2026-04-03T06:33:49.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:49.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194429.836578_9027",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:49.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194401.836578_5284",
+    "timestamp": "2026-04-03T06:33:21.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:21.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194401.836578_5284",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:21.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194439.836578_5889",
+    "timestamp": "2026-04-03T06:33:59.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "jane.smith",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:59.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "jane.smith",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194439.836578_5889",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:59.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "jane.smith",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194392.836578_3490",
+    "timestamp": "2026-04-03T06:33:12.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:12.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194392.836578_3490",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:12.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194435.836578_6893",
+    "timestamp": "2026-04-03T06:33:55.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:55.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194435.836578_6893",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:55.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194439.836578_7138",
+    "timestamp": "2026-04-03T06:33:59.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "backup_user",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:59.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "backup_user",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194439.836578_7138",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:59.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "backup_user",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194411.836578_1641",
+    "timestamp": "2026-04-03T06:33:31.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:31.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194411.836578_1641",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:31.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194464.836578_5588",
+    "timestamp": "2026-04-03T06:34:24.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:24.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194464.836578_5588",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:24.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194451.836578_6754",
+    "timestamp": "2026-04-03T06:34:11.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:11.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194451.836578_6754",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:11.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194455.836578_8718",
+    "timestamp": "2026-04-03T06:34:15.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:15.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194455.836578_8718",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:15.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194479.836578_4648",
+    "timestamp": "2026-04-03T06:34:39.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:39.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194479.836578_4648",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:39.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194484.836578_6338",
+    "timestamp": "2026-04-03T06:34:44.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:44.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194484.836578_6338",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:44.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194423.836578_9126",
+    "timestamp": "2026-04-03T06:33:43.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:43.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194423.836578_9126",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:43.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194494.836578_3001",
+    "timestamp": "2026-04-03T06:34:54.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:54.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194494.836578_3001",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:54.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194475.836578_7032",
+    "timestamp": "2026-04-03T06:34:35.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:35.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194475.836578_7032",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:35.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194429.836578_6896",
+    "timestamp": "2026-04-03T06:33:49.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:49.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194429.836578_6896",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:49.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194457.836578_7121",
+    "timestamp": "2026-04-03T06:34:17.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:17.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194457.836578_7121",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:17.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194460.836578_7369",
+    "timestamp": "2026-04-03T06:34:20.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "alice.jones",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:20.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "alice.jones",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194460.836578_7369",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:20.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "alice.jones",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194491.836578_3618",
+    "timestamp": "2026-04-03T06:34:51.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:51.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194491.836578_3618",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:51.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194524.836578_9862",
+    "timestamp": "2026-04-03T06:35:24.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:24.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194524.836578_9862",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:24.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194409.836578_7241",
+    "timestamp": "2026-04-03T06:33:29.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "jane.smith",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:29.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "jane.smith",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194409.836578_7241",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:29.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "jane.smith",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194410.836578_5214",
+    "timestamp": "2026-04-03T06:33:30.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:30.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194410.836578_5214",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:30.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194507.836578_1799",
+    "timestamp": "2026-04-03T06:35:07.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "backup_user",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:07.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "backup_user",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194507.836578_1799",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:07.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "backup_user",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194412.836578_6271",
+    "timestamp": "2026-04-03T06:33:32.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "backup_user",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:32.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "backup_user",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194412.836578_6271",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:32.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "backup_user",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194447.836578_8487",
+    "timestamp": "2026-04-03T06:34:07.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:07.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Accepted password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "success",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194447.836578_8487",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:07.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Accepted password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "success",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194414.836578_1791",
+    "timestamp": "2026-04-03T06:33:34.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "test",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:34.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "test",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194414.836578_1791",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:34.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "test",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194559.836578_8746",
+    "timestamp": "2026-04-03T06:35:59.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:59.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194559.836578_8746",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:59.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194490.836578_4605",
+    "timestamp": "2026-04-03T06:34:50.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:50.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194490.836578_4605",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:50.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194455.836578_2470",
+    "timestamp": "2026-04-03T06:34:15.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "service_account",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:15.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "service_account",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194455.836578_2470",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:15.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "service_account",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194496.836578_1720",
+    "timestamp": "2026-04-03T06:34:56.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:56.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194496.836578_1720",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:56.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194539.836578_3100",
+    "timestamp": "2026-04-03T06:35:39.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "guest",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:39.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "guest",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194539.836578_3100",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:39.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "guest",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194543.836578_2493",
+    "timestamp": "2026-04-03T06:35:43.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:43.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194543.836578_2493",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:43.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194421.836578_1398",
+    "timestamp": "2026-04-03T06:33:41.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:33:41.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 33,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194421.836578_1398",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:33:41.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194594.836578_4041",
+    "timestamp": "2026-04-03T06:36:34.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:36:34.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 36,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194594.836578_4041",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:36:34.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194599.836578_4581",
+    "timestamp": "2026-04-03T06:36:39.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:36:39.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 36,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194599.836578_4581",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:36:39.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194559.836578_8956",
+    "timestamp": "2026-04-03T06:35:59.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:59.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194559.836578_8956",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:59.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194517.836578_4836",
+    "timestamp": "2026-04-03T06:35:17.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:17.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194517.836578_4836",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:17.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194473.836578_2490",
+    "timestamp": "2026-04-03T06:34:33.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:34:33.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 34,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194473.836578_2490",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:34:33.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194571.836578_8527",
+    "timestamp": "2026-04-03T06:36:11.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:36:11.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 36,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194571.836578_8527",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:36:11.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775194526.836578_4702",
+    "timestamp": "2026-04-03T06:35:26.836578",
+    "source_format": "json",
+    "event_type": "authentication",
+    "source_ip": "203.0.113.47",
+    "destination_ip": null,
+    "user_id": "root",
+    "service": "ssh",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T06:35:26.836578",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "authentication",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "203.0.113.47",
+        "certainty": 1.0
+      },
+      "user_id": {
+        "value": "root",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "ssh",
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "Failed password for root from 203.0.113.47",
+        "certainty": 1.0
+      },
+      "outcome": {
+        "value": "failure",
+        "certainty": 1.0
+      },
+      "auth_method": {
+        "value": "password",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 6,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 35,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775194526.836578_4702",
+      "event_type": "authentication",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T06:35:26.836578",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "authentication",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "203.0.113.47",
+          "certainty": 1.0
+        },
+        "user_id": {
+          "value": "root",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "ssh",
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "Failed password for root from 203.0.113.47",
+          "certainty": 1.0
+        },
+        "outcome": {
+          "value": "failure",
+          "certainty": 1.0
+        },
+        "auth_method": {
+          "value": "password",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  }
+]

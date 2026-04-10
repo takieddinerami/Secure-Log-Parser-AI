@@ -1,0 +1,1012 @@
+[
+  {
+    "event_id": "evt_1775201914.728682_9441",
+    "timestamp": "2026-04-03T08:38:34.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:38:34.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=' OR '1'='1' /*",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 403,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: ' OR '1'='1' /*",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 38,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775201914.728682_9441",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:38:34.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=' OR '1'='1' /*",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 403,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: ' OR '1'='1' /*",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775201966.728682_4153",
+    "timestamp": "2026-04-03T08:39:26.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:39:26.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=' OR '1'='1' /*",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 403,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: ' OR '1'='1' /*",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 39,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775201966.728682_4153",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:39:26.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=' OR '1'='1' /*",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 403,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: ' OR '1'='1' /*",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775202014.728682_9335",
+    "timestamp": "2026-04-03T08:40:14.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:40:14.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=' UNION SELECT null, username, password FROM accounts--",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 403,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: ' UNION SELECT null, username, password FROM accou",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 40,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775202014.728682_9335",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:40:14.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=' UNION SELECT null, username, password FROM accounts--",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 403,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: ' UNION SELECT null, username, password FROM accou",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775202046.728682_9439",
+    "timestamp": "2026-04-03T08:40:46.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:40:46.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=' UNION SELECT null, username, password FROM accounts--",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 403,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: ' UNION SELECT null, username, password FROM accou",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 40,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775202046.728682_9439",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:40:46.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=' UNION SELECT null, username, password FROM accounts--",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 403,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: ' UNION SELECT null, username, password FROM accou",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775202114.728682_5390",
+    "timestamp": "2026-04-03T08:41:54.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:41:54.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=1' AND 1=1--",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 403,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: 1' AND 1=1--",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 41,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775202114.728682_5390",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:41:54.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=1' AND 1=1--",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 403,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: 1' AND 1=1--",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775202164.728682_5838",
+    "timestamp": "2026-04-03T08:42:44.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:42:44.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=' OR '1'='1' /*",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 500,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: ' OR '1'='1' /*",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 42,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775202164.728682_5838",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:42:44.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=' OR '1'='1' /*",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 500,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: ' OR '1'='1' /*",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775202100.728682_8157",
+    "timestamp": "2026-04-03T08:41:40.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:41:40.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=' OR 1=1--",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 500,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: ' OR 1=1--",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 41,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775202100.728682_8157",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:41:40.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=' OR 1=1--",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 500,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: ' OR 1=1--",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775201998.728682_3206",
+    "timestamp": "2026-04-03T08:39:58.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:39:58.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=1' AND 1=1--",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 403,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: 1' AND 1=1--",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 39,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775201998.728682_3206",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:39:58.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=1' AND 1=1--",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 403,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: 1' AND 1=1--",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775202394.728682_8525",
+    "timestamp": "2026-04-03T08:46:34.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:46:34.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=1'; DROP TABLE users;--",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 403,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: 1'; DROP TABLE users;--",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 46,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775202394.728682_8525",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:46:34.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=1'; DROP TABLE users;--",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 403,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: 1'; DROP TABLE users;--",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  },
+  {
+    "event_id": "evt_1775202121.728682_4168",
+    "timestamp": "2026-04-03T08:42:01.728682",
+    "source_format": "json",
+    "event_type": "data_access",
+    "source_ip": "10.0.0.199",
+    "destination_ip": null,
+    "user_id": null,
+    "service": "web",
+    "attributes": {
+      "timestamp": {
+        "value": "2026-04-03T08:42:01.728682",
+        "certainty": 1.0
+      },
+      "event_type": {
+        "value": "web_access",
+        "certainty": 1.0
+      },
+      "source_ip": {
+        "value": "10.0.0.199",
+        "certainty": 1.0
+      },
+      "service": {
+        "value": "web",
+        "certainty": 1.0
+      },
+      "method": {
+        "value": "GET",
+        "certainty": 1.0
+      },
+      "url": {
+        "value": "/api/users?id=1' AND 1=1--",
+        "certainty": 1.0
+      },
+      "user_agent": {
+        "value": "sqlmap/1.0",
+        "certainty": 1.0
+      },
+      "response_code": {
+        "value": 500,
+        "certainty": 1.0
+      },
+      "message": {
+        "value": "SQL injection attempt detected: 1' AND 1=1--",
+        "certainty": 1.0
+      }
+    },
+    "time_features": {
+      "hour": 8,
+      "day_of_week": 4,
+      "is_weekend": false,
+      "is_business_hours": false,
+      "is_night": false,
+      "minute": 42,
+      "month": 4
+    },
+    "frame": {
+      "name": "event_evt_1775202121.728682_4168",
+      "event_type": "data_access",
+      "slots": {
+        "timestamp": {
+          "value": "2026-04-03T08:42:01.728682",
+          "certainty": 1.0
+        },
+        "event_type": {
+          "value": "web_access",
+          "certainty": 1.0
+        },
+        "source_ip": {
+          "value": "10.0.0.199",
+          "certainty": 1.0
+        },
+        "service": {
+          "value": "web",
+          "certainty": 1.0
+        },
+        "method": {
+          "value": "GET",
+          "certainty": 1.0
+        },
+        "url": {
+          "value": "/api/users?id=1' AND 1=1--",
+          "certainty": 1.0
+        },
+        "user_agent": {
+          "value": "sqlmap/1.0",
+          "certainty": 1.0
+        },
+        "response_code": {
+          "value": 500,
+          "certainty": 1.0
+        },
+        "message": {
+          "value": "SQL injection attempt detected: 1' AND 1=1--",
+          "certainty": 1.0
+        }
+      },
+      "parent_frames": [],
+      "semantic_relations": {}
+    }
+  }
+]
