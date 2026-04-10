@@ -1,18 +1,37 @@
 # Secure-Log-Parser-AI
 
-A Python-based **Expert System** implementing rule-based anomaly detection with probabilistic reasoning for cybersecurity log analysis.
+## A Journey into AI-Powered Cybersecurity
+
+---
+
+*"In a world where cyber threats evolve faster than ever, we need systems that don't just process data—they need to understand it, reason about it, and explain their decisions. This project is my attempt to bridge the gap between classical AI and modern cybersecurity."*
+
+---
+
+A Python-based **Expert System** implementing rule-based anomaly detection with probabilistic reasoning for cybersecurity log analysis. 
+
+This project was completed by **Taki Eddine Rami** under the supervision and guidance of:
+- **Pr. Tag Samir** (Cybersecurity)
+- **Pr. Menassel Yahia** (Artificial Intelligence)
+- **Pr. Zebdi Abdel Moumen** (Compilation)
+- **Pr. Chergui Othaila** (Semi-Structured Data)
 
 ## Overview
 
-This project demonstrates practical application of AI concepts including:
+Secure-Log-Parser-AI is an intelligent system that thinks, reasons, and explains its findings like a human security analyst. It addresses the "black box" problem of modern ML by providing natural language justifications for every detection.
+
+### Key AI Concepts Implemented
 - **Expert Systems** with forward-chaining inference
 - **Knowledge Representation** using frames and semantic networks
-- **Uncertainty Handling** via Certainty Factor algebra and Dempster-Shafer theory
+- **Uncertainty Handling** via Certainty Factor algebra (MYCIN-style) and Dempster-Shafer theory
 - **Multi-layer Detection** combining signature, statistical, and behavioral analysis
+- **Simplified Rete network** for efficient rule matching
+
+---
 
 ## Architecture
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                    SECURE-LOG-PARSER-AI                         │
 ├─────────────────────────────────────────────────────────────────┤
@@ -47,70 +66,33 @@ This project demonstrates practical application of AI concepts including:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-## Installation
+---
 
-```bash
-# Clone the repository
-git clone <repository-url>
-cd secure_log_parser_ai
+## Why This Approach?
 
-# Install dependencies (Python 3.9+)
-pip install -r requirements.txt
-```
+1.  **Explainability**: When a threat is flagged, the system explains *why* in plain English, aiding SOC analysts in rapid decision-making.
+2.  **No Training Data Required**: Unlike deep learning, this system works immediately using expert-encoded knowledge.
+3.  **Predictable & Interpretable**: Rules are transparent and predictable, unlike many neural network patterns.
+4.  **Handling Uncertainty**: Real-world security data is often incomplete or messy; Certainty Factors provide a rigorous way to quantify this.
 
-### Dependencies
+---
 
-```
-# Core (standard library only for AI components)
-# Optional for enhanced features
-pandas>=1.3.0
-numpy>=1.21.0
-networkx>=2.6.0
-```
+## Detection Layers
 
-## Quick Start
+| Layer | Technology | What It Does |
+|-------|-----------|--------------|
+| **Signature** | Regex patterns + Heuristics | Known attack signatures (SQLi, XSS, Mimikatz, etc.) |
+| **Statistical** | Z-score + Moving averages | Detects outliers in event rates, payload sizes |
+| **Behavioral** | UEBA + Sequence patterns | User profiling, peer group analysis, attack chains |
+| **Meta-Reasoning** | CF algebra + Dempster-Shafer | Combines evidence, resolves conflicts |
 
-### Command Line Interface
+---
 
-```bash
-# Analyze a log file
-python -m secure_log_parser_ai analyze logs.json
+## Knowledge Base & Rules
 
-# Analyze with specific format
-python -m secure_log_parser_ai analyze logs.xml --format xml
+The system includes **22 production rules** across 6 categories:
 
-# Generate sample logs for testing
-python -m secure_log_parser_ai generate --attack-type brute_force --count 100
-
-# Show system status
-python -m secure_log_parser_ai status
-```
-
-### Python API
-
-```python
-from secure_log_parser_ai import SecureLogParserAI
-
-# Initialize system
-system = SecureLogParserAI()
-
-# Analyze a log file
-result = system.analyze_file('security_logs.json')
-
-# Process results
-print(f"Detected {len(result.anomalies)} anomalies")
-for anomaly in result.anomalies:
-    print(f"- {anomaly.anomaly_type.value}: {anomaly.threat_score}/100")
-    print(f"  Explanation: {anomaly.explanation}")
-```
-
-## Knowledge Base
-
-### Production Rules (22 Rules)
-
-The system includes 22 production rules across 6 categories:
-
-#### Authentication Anomalies (6 rules)
+### Authentication Anomalies (6 rules)
 | Rule ID | Name | CF | Description |
 |---------|------|-----|-------------|
 | AUTH-001 | Brute Force Detection | 0.85 | 5+ failed logins within 5 minutes from same IP |
@@ -120,49 +102,19 @@ The system includes 22 production rules across 6 categories:
 | AUTH-005 | Weekend Access | 0.60 | Unusual weekend access pattern |
 | AUTH-006 | Rapid Failures | 0.80 | Burst of 3+ failures within 60 seconds |
 
-#### Privilege Escalation (3 rules)
-| Rule ID | Name | CF | Description |
-|---------|------|-----|-------------|
-| PRIV-001 | Unauthorized Escalation | 0.90 | Non-admin user attempting privilege escalation |
-| PRIV-002 | Sudo Abuse | 0.75 | Unusual sudo command patterns |
-| PRIV-003 | Sensitive Access | 0.85 | Access to sensitive resources by unauthorized user |
+### Other Rule Categories
+*   **Privilege Escalation (3 rules)**: Unauthorized escalations, sudo abuse, sensitive resource access.
+*   **Data Exfiltration (3 rules)**: Off-hours transfers, large downloads, statistical outliers.
+*   **Malware Indicators (3 rules)**: Mimikatz, PowerShell obfuscation, reverse shells.
+*   **Insider Threats (2 rules)**: Resigning employee patterns, policy violations.
+*   **Network Anomalies (3 rules)**: DDoS, Port scans, Lateral movement patterns.
 
-#### Data Exfiltration (3 rules)
-| Rule ID | Name | CF | Description |
-|---------|------|-----|-------------|
-| DATA-001 | Exfiltration Pattern | 0.78 | Large data transfer during off-hours |
-| DATA-002 | Large Download | 0.70 | Statistical outlier in download size |
-| DATA-003 | Unusual Data Access | 0.65 | Access to data outside normal pattern |
-
-#### Malware Indicators (3 rules)
-| Rule ID | Name | CF | Description |
-|---------|------|-----|-------------|
-| MAL-001 | Mimikatz Usage | 0.95 | Credential dumping tool detected |
-| MAL-002 | PowerShell Obfuscation | 0.85 | Obfuscated PowerShell execution |
-| MAL-003 | Reverse Shell | 0.90 | Reverse shell connection pattern |
-
-#### Insider Threats (2 rules)
-| Rule ID | Name | CF | Description |
-|---------|------|-----|-------------|
-| INS-001 | Data Theft Pattern | 0.75 | Resigning employee accessing confidential data |
-| INS-002 | Policy Violation | 0.70 | DLP policy violation with removable media |
-
-#### Network Anomalies (3 rules)
-| Rule ID | Name | CF | Description |
-|---------|------|-----|-------------|
-| NET-001 | DDoS Attack | 0.85 | High volume of connections from many sources |
-| NET-002 | Port Scan | 0.80 | Sequential connection attempts to multiple ports |
-| NET-003 | Lateral Movement | 0.78 | Authentication to multiple internal targets |
-
-### Rule Format
-
+### Rule Format Example
 ```python
 ProductionRule(
     rule_id="AUTH-001",
     name="Brute Force Attack Detection",
-    description="Detect multiple failed login attempts from same source",
     category=RuleCategory.AUTHENTICATION,
-    priority=RulePriority.HIGH,
     certainty=0.85,
     conditions=[
         RuleCondition(fact_type="aggregated", predicate="failed_login_count", operator=">=", value=5),
@@ -172,224 +124,106 @@ ProductionRule(
         RuleAction(
             action_type="create_anomaly",
             anomaly_type="brute_force_attack",
-            threat_level="HIGH",
             recommendation="Block source IP and review authentication logs"
         )
     ]
 )
 ```
 
+---
+
 ## Certainty Factor Algebra
 
 The system uses MYCIN-style Certainty Factor algebra for handling uncertainty:
 
 ### Combining Certainties
-
-```
 For same direction:
-CFcombined = CF1 + CF2 * (1 - CF1)
+`CFcombined = CF1 + CF2 * (1 - CF1)`
 
 For opposite direction:
-CFcombined = (CF1 + CF2) / (1 - min(|CF1|, |CF2|))
-```
+`CFcombined = (CF1 + CF2) / (1 - min(|CF1|, |CF2|))`
 
 ### Sequential Combination
+`CF(H, E) = CF(rule) × CF(evidence)`
 
-```
-CF(H, E) = CF(rule) × CF(evidence)
-```
+---
 
-### Example
+## Installation & Usage
 
-```
-Rule CF: 0.85
-Evidence 1 CF: 0.90
-Evidence 2 CF: 0.70
+### Setup
+```bash
+# Clone the repository
+git clone <repository-url>
+cd Secure-Log-Parser-AI
 
-Combined Evidence: 0.90 + 0.70 × (1 - 0.90) = 0.97
-Final CF: 0.85 × 0.97 = 0.82 (82% certainty)
-```
-
-## Detection Layers
-
-### Layer 1: Signature-Based Detection
-- Regex pattern matching for known attack signatures
-- 20+ signatures covering common attacks
-- Fast O(n) processing
-
-### Layer 2: Statistical Detection
-- Baseline profiling using moving averages
-- Z-score calculation for outlier detection
-- Time-series pattern analysis
-
-### Layer 3: Behavioral Detection
-- User/Entity Behavior Analytics (UEBA)
-- Sequence pattern matching for attack chains
-- Peer group analysis
-
-### Layer 4: Meta-Reasoning
-- Evidence combination using Dempster-Shafer theory
-- Conflict resolution for contradictory indicators
-- Composite threat scoring (0-100 scale)
-
-## Supported Log Formats
-
-### JSON
-- Standard JSON logs
-- AWS CloudTrail
-- Windows Event Logs (JSON format)
-- Custom JSON schemas
-
-### XML
-- Windows Event Log (EVTX export)
-- Syslog (RFC 5424)
-- Common Event Format (CEF)
-
-### Features
-- Nested structure flattening
-- Timestamp normalization (ISO 8601)
-- Schema unification
-- Namespace handling
-
-## Sample Log Generation
-
-Generate test data for development and testing:
-
-```python
-from secure_log_parser_ai.sample_logs import SampleLogGenerator
-
-generator = SampleLogGenerator()
-
-# Generate specific attack scenarios
-events = generator.generate_attack_scenario('brute_force', count=100)
-events = generator.generate_attack_scenario('sql_injection', count=50)
-events = generator.generate_attack_scenario('lateral_movement', count=30)
-
-# Generate mixed logs (70% normal, 30% attacks)
-events = generator.generate_mixed_logs(count=500)
-
-# Export to JSON
-json_data = generator.to_json(events)
-
-# Export to XML
-xml_data = generator.to_xml(events)
+# Install dependencies (Python 3.9+)
+pip install -r requirements.txt
 ```
 
-## Performance
-
-### Complexity Analysis
-
-| Component | Time Complexity | Space Complexity |
-|-----------|-----------------|------------------|
-| JSON Parsing | O(n) | O(n) |
-| XML Parsing | O(n) | O(n) |
-| Signature Detection | O(n × m) | O(1) |
-| Statistical Detection | O(n) | O(k) |
-| Rule Matching | O(rules × facts) | O(facts) |
-| Inference | O(iterations × rules) | O(facts) |
-
-Where:
-- n = number of events
-- m = number of signatures
-- k = number of baseline metrics
-
-### Benchmarks
-
-Typical performance on standard hardware:
-- Parsing: ~10,000 events/second
-- Signature Detection: ~5,000 events/second
-- Full Analysis: ~1,000 events/second
-
-## Testing
+### Quick Start
 
 ```bash
-# Run all tests
-python -m pytest tests/
-
-# Run specific test category
-python -m pytest tests/test_inference_engine.py
-python -m pytest tests/test_detection.py
-
-# Generate coverage report
-python -m pytest --cov=secure_log_parser_ai tests/
+# Generate sample logs for testing (Brute Force Simulation)
+python -m secure_log_parser_ai generate --attack-type brute_force --count 100
 ```
+![Log Generation](screenshots/generation_demo.png)
+
+```bash
+# Analyze a log file for anomalies and explain findings
+python -m secure_log_parser_ai analyze data/sample_logs.json
+```
+![Analysis Results](screenshots/analysis_demo.png)
+
+### Python API
+```python
+from secure_log_parser_ai import SecureLogParserAI
+
+system = SecureLogParserAI()
+result = system.analyze_file('security_logs.json')
+
+for anomaly in result.anomalies:
+    print(f"Detected {anomaly.anomaly_type.value}: {anomaly.certainty*100:.1f}%")
+    print(f"Explanation: {anomaly.explanation}")
+```
+
+---
 
 ## Project Structure
 
 ```
-secure_log_parser_ai/
-├── knowledge_base/          # Expert System knowledge base
-│   ├── ontology.py         # Frame-based representation, semantic networks
-│   ├── certainties.py      # CF algebra, Dempster-Shafer theory
-│   └── rule_base.py        # 22 production rules
-├── inference_engine/        # Inference engine components
-│   ├── forward_chainer.py  # Forward chaining with conflict resolution
-│   ├── pattern_matcher.py  # Rete network implementation
-│   └── explainer.py        # Natural language justification
-├── parsers/                 # Log parsing modules
-│   ├── json_parser.py      # JSON log parser
-│   ├── xml_parser.py       # XML log parser
-│   └── normalizer.py       # Schema unification
-├── detection/               # Detection layers
-│   ├── signature_based.py  # Pattern matching
-│   ├── statistical.py      # Statistical analysis
-│   ├── behavioral.py       # UEBA
-│   └── uncertainty.py      # Meta-reasoning
-├── models/                  # Data models
-│   ├── log_event.py        # Frame-based event representation
-│   ├── anomaly.py          # Anomaly detection results
-│   └── fact.py             # Working memory facts
-├── utils/                   # Utilities
-│   └── feature_engineering.py
-├── sample_logs/             # Sample log generators
-│   └── generator.py
-├── main.py                  # System integration
-├── cli.py                   # Command-line interface
+Secure-Log-Parser-AI/
+├── src/
+│   ├── secure_log_parser_ai/   # Main package entry
+│   │   ├── knowledge_base/     # Rules, ontology, certainty algebra
+│   │   ├── inference_engine/   # Forward chainer, pattern matcher, explainer
+│   │   ├── parsers/           # JSON, XML, Syslog parsers
+│   │   ├── detection/         # Signature, statistical, behavioral layers
+│   │   ├── models/            # Log events, anomalies, facts
+│   │   └── utils/             # Feature engineering
+│   └── merge.py            # Event merging utility
+├── data/                  # Log samples and generated data
+├── examples/              # Usage examples and scripts
+├── results/               # Analysis outputs
+├── screenshots/           # Visual demonstrations
+├── tests/                 # Full test suite
 └── README.md
 ```
 
-## Academic Context
+---
 
-This project demonstrates:
+## Academic Context & References
 
-### AI Concepts
-- **Expert Systems**: Rule-based reasoning with forward chaining
-- **Knowledge Representation**: Frames, semantic networks, production rules
-- **Uncertainty Handling**: Certainty factors, Dempster-Shafer theory
-- **Inference Engines**: Pattern matching, conflict resolution
-- **Explanation Facilities**: Natural language justification
+This project serves as a practical implementation of fundamental AI concepts:
+1. **Buchanan & Shortliffe (1984)**: *Rule-Based Expert Systems: The MYCIN Experiments*
+2. **Shafer (1976)**: *A Mathematical Theory of Evidence* (Dempster-Shafer)
+3. **Forgy (1982)**: *Rete: A Fast Algorithm for the Many Pattern/Many Object Pattern Match Problem*
 
-### Security Domain Knowledge
-- Attack pattern recognition
-- Behavioral analysis
-- Threat intelligence integration
-- Anomaly detection techniques
+---
 
-### Software Engineering
-- Modular architecture
-- Pipeline pattern
-- Strategy pattern
-- Separation of concerns
+## Acknowledgments
+My deepest gratitude to the faculty staff for their invaluable guidance in shaping this system into a bridge between theoretical AI and modern cybersecurity.
 
-## References
-
-1. Buchanan, B. G., & Shortliffe, E. H. (1984). *Rule-Based Expert Systems: The MYCIN Experiments*
-2. Duda, R. O., et al. (1976). "Development of the PROSPECTOR Consultation System"
-3. Shafer, G. (1976). *A Mathematical Theory of Evidence*
-4. Forgy, C. L. (1982). "Rete: A Fast Algorithm for the Many Pattern/Many Object Pattern Match Problem"
-
-## License
-
-MIT License - See LICENSE file for details
-
-## Contributing
-
-Contributions welcome! Areas for enhancement:
-- Additional detection rules
-- New log format parsers
-- Improved uncertainty models
-- Machine learning integration (as optional enhancement)
-- Visualization components
-#   S e c u r e - L o g - P a r s e r - A I  
- #   S e c u r e - L o g - P a r s e r - A I  
+**License**: MIT  
+**Version**: 1.0.0  
+**Last Updated**: February 2026#   S e c u r e - L o g - P a r s e r - A I  
  
